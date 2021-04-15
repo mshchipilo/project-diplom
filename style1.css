@@ -1,0 +1,832 @@
+@font-face {
+    font-family: Rubik-VariableFont_wght;
+    font-display: auto;
+    src: local('Rubik-VariableFont_wght'), url('./fonts/Rubik-VariableFont_wght.ttf');
+    font-style: normal;
+}
+body {
+    margin: 0;
+}
+.background {
+    background-color: #f6f6f6;
+    background-size: auto 100%;
+    background-position: center;
+}
+.background-footer {
+    background-color: #f8f8f8;
+    background-size: auto 100%;
+    background-position: center;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.container-block {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-family: Rubik-VariableFont_wght;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+}
+h2 {
+    font-family: Rubik-VariableFont_wght;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px; 
+    color: #0B132A;
+}
+h3 {
+    font-family: Rubik-VariableFont_wght;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #0B132A;  
+}
+p {
+    font-family: Rubik-VariableFont_wght;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+h4 {
+    font-family: Rubik-VariableFont_wght;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+.btm {
+    font-family: Rubik-VariableFont_wght;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: none; 
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    padding: 13px 45px;
+}
+button {
+    font-family: Rubik-VariableFont_wght;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    background: #F53838; 
+    border-radius: 10px;
+    border: none;
+    padding: 18px 78px;
+} 
+.stay {
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h3 {
+    text-align: left;
+    padding: 10px;
+}
+h3 span {  
+    font-family: Rubik-VariableFont_wght;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #0B132A;
+}
+.navbar {
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul li {
+    list-style: none;
+    float: left;
+    padding: 40px;
+} 
+ul li a {
+    text-decoration: none;
+    font-family: Rubik-VariableFont_wght;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #4F5665;
+}
+.sing a {
+    text-decoration: none;
+    color: #F53855;
+}
+.sing h3 {
+    margin-right: 30px;
+}
+.sing {
+    justify-content: space-around;
+    align-items: center;
+}
+  /* margin: 130px 0 20px; */
+
+
+.description { 
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.home-page h1 span {
+    font-weight: 700;
+    color: #0B132A;  
+}
+.home-page p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.home-page p span {
+    font-weight: 500;
+    text-align: left;
+    color: #4F5665;
+}
+button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* .shadow {
+    position: absolute;
+    height: 60px;
+    border-radius: 10px;
+    background: #F53838 35%; 
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(54px);
+}  */
+
+.our-jobs {
+    padding-top: 100px;
+}
+.jobs h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+    margin-bottom: 5px;
+    /* margin-left: 35px; */
+}
+.jobs p {
+    font-size: 20px;
+    text-align: left;
+    /* margin-left: 35px; */
+}
+.container-block {
+    justify-content: space-around;
+    align-items: center;
+}
+.job {
+    justify-content: space-around;
+    align-items: center; 
+}
+/* .jobs {
+    border-right: 2px solid #eeeff2;
+}  */
+/* .our-jobs > div {
+    flex: 1;
+} */
+/* .job {
+    flex: 1;
+} */
+
+.our-services {
+    padding-top: 110px;
+    padding-bottom: 125px;
+}
+.services {
+    padding-left: 160px;
+}
+.services h2 {
+    padding: 0;
+    margin: 0;
+}
+.services ul {
+    padding: 0;
+    margin: 0;
+}
+.services ul li {
+    list-style: none;
+    font-family: Rubik-VariableFont_wght;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665; 
+}
+.services li:before {
+    content: url(./img/Group.png);
+    margin: 10px;
+}
+
+.plan-selection {
+    padding-top: 80px;
+}
+.plans {
+    justify-content: center;
+    align-items: center;
+}
+/* .services ul li {
+    list-style-image: url(../img/Group.png);
+    
+} */
+.plans h2 {
+    margin: 0;
+}
+.plans p {
+    width: 600px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.free-plan {
+    margin: 70px;
+}
+.free-plan img {
+    margin: 90px 0 30px 0;
+}
+.free-plan ul li {
+    margin: 10px;
+    margin-left: 0;
+}
+.free-plan ul li::before {
+    content: url(./img/Vector-mini.png);
+}
+.free-plan h4 {
+    margin-top: 109px;
+    margin-bottom: 0;
+}
+.free-plan .btm {
+    margin: 20px 0 50px;
+}
+.standart-plan {
+    margin: 70px;
+}
+.standart-plan img {
+    margin: 95px 0 30px 0;
+}
+.standart-plan ul li {
+    margin: 10px;
+    margin-left: 0;
+}
+.standart-plan ul li::before {
+    content: url(./img/Vector-mini.png);
+}
+.standart-plan h4 {
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+.standart-plan .btm {
+    margin: 20px 0 50px;
+}
+.premium-plan {
+    margin: 70px;
+}
+.premium-plan img {
+    margin: 95px 0 30px 0;
+}
+.premium-plan ul li {
+    margin: 10px;
+    margin-left: 0;
+}
+.premium-plan ul li::before {
+    content: url(./img/Vector-mini.png);
+}
+.premium-plan h4 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.premium-plan .btm {
+    margin: 20px 0 50px;
+}
+.free-plan, 
+.standart-plan,
+.premium-plan {
+    border: 2px solid #dddddd;
+}
+ul li {
+    list-style: none;
+    font-family: Rubik-VariableFont_wght;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665; 
+}
+.btm a {
+    text-decoration: none;
+    color: #F53838;
+}
+
+.map {
+    justify-content: center;
+    align-items: center;
+}
+.map h2 {
+    text-align: center;
+    width: 350px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.map p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.customers {
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+/* .carousel-rev {
+    margin: 50px;
+}
+.customers {
+    justify-content: space-around;
+    align-items: center;
+}
+.star {
+    justify-content: center;
+    align-items: baseline;
+}
+.carousel-r {
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+.reviews {
+    justify-content: space-around;
+    align-items: center;
+}
+.reviews h2 {
+    text-align: center;
+    width: 400px;
+    margin-top: 125px;
+    margin-bottom: 20px;
+}
+.reviews p {
+    text-align: center;
+    width: 550px;
+    margin-bottom: 60px;
+}
+
+.subscribe-text h2 {
+    margin: 60px 0 20px 0px;
+}
+.subscribe-text p {
+    /* margin-left: 70px; */
+    margin-bottom: 60px;
+}
+.lasles-logo {
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-product {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.navigation {
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer-product ul li {
+    padding: 0;
+}
+.footer-product p {
+    margin: 85px 0 0 40px;
+    font-family: Rubik-VariableFont_wght;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+}
+.image-social p {
+    font-family: Rubik-VariableFont_wght;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #afb5c0;  
+}
+.image-social p span {
+    font-family: Rubik-VariableFont_wght;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #afb5c0;
+}
+.lasles-logo {
+    margin: 70px 0 26px 0;
+}
+.image-social {
+    margin: 30px 0 30px 0;
+}
+.lasles-footer {
+    margin: 0 0 140px 0;
+}
+.footer-product ul li {
+    margin-bottom: 10px;
+}
+.lasles-logo h3 {
+    margin-left: 10px;
+}
+
+.btm:hover {
+    background-color: #F53855;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.btm:hover a {
+    color: white;
+}
+.button-block:hover {
+    background-color: #0B132A;
+    opacity: 0.6;
+    transition: 0.3s; 
+}
+.button-block:hover a {
+    color: #F53855;
+}
+@media (max-width: 600px) {
+    .navbar-menu h3 {
+        display: none;
+    }
+    .navbar-menu .navbar {
+        display: none;
+    }
+    .home-page img {
+        display: none;
+    }
+    .btm {
+        font-family: Rubik-VariableFont_wght;
+        font-size: 16px;
+        font-weight: 250;
+        line-height: 19px;
+        text-align: center;
+        background: none; 
+        border-radius: 50px;
+        border: 1px solid #F53855;
+        padding: 10px 30px;
+    }
+    h1 {
+        font-family: Rubik-VariableFont_wght;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: center;
+    }
+    h2 {
+        font-family: Rubik-VariableFont_wght;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px; 
+        color: #0B132A;
+    }
+    .services h2 {
+        text-align: center;
+    }
+    h3 {
+        font-family: Rubik-VariableFont_wght;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #0B132A;  
+    }
+    p {
+        font-family: Rubik-VariableFont_wght;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+        color: #4F5665;
+        text-align: center;
+    }
+    h4 {
+        font-family: Rubik-VariableFont_wght;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+    }
+    button {
+        font-family: Rubik-VariableFont_wght;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+        background: #F53838; 
+        border-radius: 10px;
+        border: none;
+        padding: 12px 50px;
+    } 
+    button {
+        margin: 0 auto;
+    }
+    .home-page h1 span {
+        font-weight: 600;
+        color: #0B132A;  
+    }
+    .home-page p {
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    .home-page p span {
+        font-weight: 500;
+        text-align: left;
+        color: #4F5665;
+    }
+    button a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .our-jobs {
+        padding-top: 50px;
+    }
+    .jobs h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: left;
+        color: #0B132A;
+        margin-bottom: 5px;
+    }
+    .jobs p {
+        font-size: 16px;
+        text-align: left;
+    }
+    /* .container-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .our-services img {
+        display: none;
+    }
+
+    .our-services {
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+    .services {
+        padding-left: 5px;
+    }
+    .services h2 {
+        padding: 0;
+        margin: 0;
+    }
+    .services ul {
+        padding: 0;
+        margin: 0;
+    }
+    .services ul li {
+        list-style: none;
+        font-family: Rubik-VariableFont_wght;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4F5665; 
+    }
+    .services li:before {
+        content: url(./img/Group.png);
+        margin: 5px;
+    }
+
+    .plan-selection {
+        padding-top: 50px;
+    }
+    /* .choice-plan img {
+        display: none;
+    } */
+    .choice-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .plans h2 {
+        margin: 0;
+    }
+    .plans p {
+        width: 90%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .free-plan h4 {
+        margin-top: 150px;
+    }
+    .free-plan {
+        margin: 0;
+    }
+    .standart-plan {
+        margin: 0;
+    }
+    .standart-plan h4 {
+        margin-top: 90px;
+    }
+    .premium-plan {
+        margin: 0;
+    }
+
+
+    
+    .free-plan {
+        margin: 10px;
+    }
+    .free-plan img {
+        margin: 20px 0 10px 0;
+    }
+    .free-plan h4 {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .free-plan .btm {
+        margin: 10px 0 20px;
+    }
+    .standart-plan {
+        margin: 10px;
+    }
+    .standart-plan img {
+        margin: 20px 0 10px 0;
+    }
+    .standart-plan h4 {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .standart-plan .btm {
+        margin: 10px 0 20px;
+    }
+    .premium-plan {
+        margin: 10px;
+    }
+    .premium-plan img {
+        margin: 20px 0 10px 0;
+    }
+    .premium-plan h4 {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .premium-plan .btm {
+        margin: 10px 0 20px;
+    }
+
+    .map h2 {
+        text-align: center;
+        width: 300px;
+        margin-top: 80px;
+        margin-bottom: 0;
+    }
+    .map p {
+        text-align: center;
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .maps-sect img {
+        width: 100%;
+        height: auto;
+    }
+
+    .customers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews {
+        justify-content: space-around;
+        align-items: center;
+    }
+    .reviews h2 {
+        text-align: center;
+        width: 400px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .reviews p {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+    .subscribe-text h2 {
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .subscribe-text p {
+        /* margin-left: 70px; */
+        margin-bottom: 20px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .lasles-footer {
+        display: none;
+    }
+    
+
+    .footer-product {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .navigation {
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .footer-product ul li {
+        padding: 0;
+    }
+    .footer-product p {
+        margin: 85px 0 0 40px;
+        font-family: Rubik-VariableFont_wght;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #0B132A;
+    }
+    .image-social p {
+        font-family: Rubik-VariableFont_wght;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #afb5c0;  
+    }
+    .image-social p span {
+        font-family: Rubik-VariableFont_wght;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #afb5c0;
+    }
+    .lasles-logo {
+        margin: 10px 0 10px 0;
+    }
+    .image-social {
+        margin: 10px 0 10px 0;
+    }
+    .lasles-footer {
+        margin: 0 0 10px 0;
+    }
+    .products {
+        margin-top: -50px;
+    }
+    .navigation-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+    .navigation-main {
+        margin: 0 auto;
+    }
+    .navigation-main p {
+        text-align: center;
+        width: 100%;
+    }
+}
+    
